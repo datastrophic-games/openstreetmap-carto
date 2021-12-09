@@ -1,4 +1,4 @@
-@breakwater-color: #22; /* Also for groyne */
+@breakwater-color: #222; /* Also for groyne */
 @dam: #333;
 @dam-line: #444444;
 @weir-line: #222;
