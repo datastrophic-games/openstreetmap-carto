@@ -1,36 +1,36 @@
 /* For the main linear features, such as roads and railways. */
 
-@tertiary-fill: #ffffff;
-@residential-fill: #ffffff;
+@tertiary-fill: #555;
+@residential-fill: #555;
 @service-fill: @residential-fill;
-@living-street-fill: #ededed;
+@living-street-fill: #666;
 @pedestrian-fill: #dddde8;
-@raceway-fill: saturate(darken(pink, 40%), 40%);
+@raceway-fill: saturate(darken(pink, 60%), 80%);
 @road-fill: #ddd;
-@footway-fill: saturate(darken(salmon, 40%), 40%);
+@footway-fill: saturate(darken(salmon, 60%), 80%);
 @footway-fill-noaccess: #bbbbbb;
 @steps-fill: @footway-fill;
 @steps-fill-noaccess: #bbbbbb;
-@cycleway-fill: saturate(darken(blue, 40%), 40%);
+@cycleway-fill: saturate(darken(blue, 60%), 80%);
 @cycleway-fill-noaccess: #9999ff;
-@bridleway-fill: saturate(darken(green, 40%), 40%);
-@bridleway-fill-noaccess: saturate(darken(#aaddaa, 40%), 40%);
-@track-fill: saturate(darken(#996600, 40%), 40%);
-@track-fill-noaccess: saturate(darken(#e2c5bb, 40%), 40%);
-@aeroway-fill: saturate(darken(#bbc, 40%), 40%);
+@bridleway-fill: saturate(darken(green, 60%), 80%);
+@bridleway-fill-noaccess: saturate(darken(#aaddaa, 60%), 80%);
+@track-fill: saturate(darken(#996600, 60%), 80%);
+@track-fill-noaccess: saturate(darken(#e2c5bb, 60%), 80%);
+@aeroway-fill: saturate(darken(#bbc, 60%), 80%);
 @runway-fill: @aeroway-fill;
 @taxiway-fill: @aeroway-fill;
 @helipad-fill: @aeroway-fill;
-@access-marking: saturate(darken(#eaeaea, 40%), 40%);
-@access-marking-living-street: saturate(darken(#cccccc, 40%), 40%);
+@access-marking: saturate(darken(#eaeaea, 60%), 80%);
+@access-marking-living-street: saturate(darken(#cccccc, 60%), 80%);
 
 @default-casing: white;
-@tertiary-casing: saturate(darken(#8f8f8f, 40%), 40%);
-@residential-casing: #bbb;
+@tertiary-casing: saturate(darken(#8f8f8f, 60%), 80%);
+@residential-casing: #555;
 @road-casing: @residential-casing;
 @service-casing: @residential-casing;
 @living-street-casing: @residential-casing;
-@pedestrian-casing: #999;
+@pedestrian-casing: #444;
 @path-casing: @default-casing;
 @footway-casing: @default-casing;
 @steps-casing: @default-casing;
@@ -45,9 +45,9 @@
 @minor-construction: #aaa;
 @service-construction: #aaa;
 
-@destination-marking: saturate(darken(#c2e0ff, 40%), 40%);
-@private-marking: saturate(darken(#efa9a9, 40%), 40%);
-@private-marking-for-red: saturate(darken(#C26363, 40%), 40%);
+@destination-marking: saturate(darken(#c2e0ff, 60%), 80%);
+@private-marking: saturate(darken(#efa9a9, 60%), 80%);
+@private-marking-for-red: saturate(darken(#C26363, 60%), 80%);
 
 @tunnel-casing: grey;
 @bridge-casing: black;
