@@ -5,27 +5,27 @@
 @service-fill: @residential-fill;
 @living-street-fill: #ededed;
 @pedestrian-fill: #dddde8;
-@raceway-fill: pink;
+@raceway-fill: saturate(darken(pink, 40%), 40%);
 @road-fill: #ddd;
-@footway-fill: salmon;
+@footway-fill: saturate(darken(salmon, 40%), 40%);
 @footway-fill-noaccess: #bbbbbb;
 @steps-fill: @footway-fill;
 @steps-fill-noaccess: #bbbbbb;
-@cycleway-fill: blue;
+@cycleway-fill: saturate(darken(blue, 40%), 40%);
 @cycleway-fill-noaccess: #9999ff;
-@bridleway-fill: green;
-@bridleway-fill-noaccess: #aaddaa;
-@track-fill: #996600;
-@track-fill-noaccess: #e2c5bb;
-@aeroway-fill: #bbc;
+@bridleway-fill: saturate(darken(green, 40%), 40%);
+@bridleway-fill-noaccess: saturate(darken(#aaddaa, 40%), 40%);
+@track-fill: saturate(darken(#996600, 40%), 40%);
+@track-fill-noaccess: saturate(darken(#e2c5bb, 40%), 40%);
+@aeroway-fill: saturate(darken(#bbc, 40%), 40%);
 @runway-fill: @aeroway-fill;
 @taxiway-fill: @aeroway-fill;
 @helipad-fill: @aeroway-fill;
-@access-marking: #eaeaea;
-@access-marking-living-street: #cccccc;
+@access-marking: saturate(darken(#eaeaea, 40%), 40%);
+@access-marking-living-street: saturate(darken(#cccccc, 40%), 40%);
 
 @default-casing: white;
-@tertiary-casing: #8f8f8f;
+@tertiary-casing: saturate(darken(#8f8f8f, 40%), 40%);
 @residential-casing: #bbb;
 @road-casing: @residential-casing;
 @service-casing: @residential-casing;
@@ -45,9 +45,9 @@
 @minor-construction: #aaa;
 @service-construction: #aaa;
 
-@destination-marking: #c2e0ff;
-@private-marking: #efa9a9;
-@private-marking-for-red: #C26363;
+@destination-marking: saturate(darken(#c2e0ff, 40%), 40%);
+@private-marking: saturate(darken(#efa9a9, 40%), 40%);
+@private-marking-for-red: saturate(darken(#C26363, 40%), 40%);
 
 @tunnel-casing: grey;
 @bridge-casing: black;
