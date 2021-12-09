@@ -1,61 +1,61 @@
 // --- Parks, woods, other green things ---
 
-@grass: saturate(darken(#cdebb0, 75%), 10%);        // Lch(90,32,128) also grassland, meadow, village_green, garden, allotments
-@scrub: saturate(darken(#c8d7ab, 75%), 10%);        // Lch(84,24,122)
-@forest: saturate(darken(#add19e, 75%), 10%);       // Lch(80,30,135)
-@forest-text: saturate(darken(#46673b, 75%), 10%);  // Lch(40,30,135)
-@park: saturate(darken(#c8facc, 75%), 10%);         // Lch(94,30,145)
-@allotments: saturate(darken(#c9e1bf, 75%), 10%);   // Lch(87,20,135)
-@orchard: saturate(darken(#aedfa3, 75%), 10%); // also vineyard, plant_nursery
+@grass: saturate(darken(#cdebb0, 75%), 5%);        // Lch(90,32,128) also grassland, meadow, village_green, garden, allotments
+@scrub: saturate(darken(#c8d7ab, 75%), 5%);        // Lch(84,24,122)
+@forest: saturate(darken(#add19e, 75%), 5%);       // Lch(80,30,135)
+@forest-text: saturate(darken(#46673b, 75%), 5%);  // Lch(40,30,135)
+@park: saturate(darken(#c8facc, 75%), 5%);         // Lch(94,30,145)
+@allotments: saturate(darken(#c9e1bf, 75%), 5%);   // Lch(87,20,135)
+@orchard: saturate(darken(#aedfa3, 75%), 5%); // also vineyard, plant_nursery
 @hedge: @forest;       // Lch(80,30,135)
 
 // --- "Base" landuses ---
 
-@built-up-lowzoom: saturate(darken(#d0d0d0, 75%), 10%);
-@built-up-z12: saturate(darken(#dddddd, 75%), 10%);
-@residential: saturate(darken(#e0dfdf, 75%), 10%);      // Lch(89,0,0)
-@residential-line: saturate(darken(#b9b9b9, 75%), 10%); // Lch(75,0,0)
-@retail: saturate(darken(#ffd6d1, 75%), 10%);           // Lch(89,16,30)
-@retail-line: saturate(darken(#d99c95, 75%), 10%);      // Lch(70,25,30)
-@commercial: saturate(darken(#f2dad9, 75%), 10%);       // Lch(89,8.5,25)
-@commercial-line: saturate(darken(#d1b2b0, 75%), 10%);  // Lch(75,12,25)
-@industrial: saturate(darken(#ebdbe8, 75%), 10%);       // Lch(89,9,330) (Also used for railway, wastewater_plant)
-@industrial-line: saturate(darken(#c6b3c3, 75%), 10%);  // Lch(75,11,330) (Also used for railway-line, wastewater_plant-line)
-@farmland: saturate(darken(#eef0d5, 75%), 10%);         // Lch(94,14,112)
-@farmland-line: saturate(darken(#c7c9ae, 75%), 10%);    // Lch(80,14,112)
-@farmyard: saturate(darken(#f5dcba, 75%), 10%);         // Lch(89,20,80)
-@farmyard-line: saturate(darken(#d1b48c, 75%), 10%);    // Lch(75,25,80)
+@built-up-lowzoom: saturate(darken(#d0d0d0, 75%), 5%);
+@built-up-z12: saturate(darken(#dddddd, 75%), 5%);
+@residential: saturate(darken(#e0dfdf, 75%), 5%);      // Lch(89,0,0)
+@residential-line: saturate(darken(#b9b9b9, 75%), 5%); // Lch(75,0,0)
+@retail: saturate(darken(#ffd6d1, 75%), 5%);           // Lch(89,16,30)
+@retail-line: saturate(darken(#d99c95, 75%), 5%);      // Lch(70,25,30)
+@commercial: saturate(darken(#f2dad9, 75%), 5%);       // Lch(89,8.5,25)
+@commercial-line: saturate(darken(#d1b2b0, 75%), 5%);  // Lch(75,12,25)
+@industrial: saturate(darken(#ebdbe8, 75%), 5%);       // Lch(89,9,330) (Also used for railway, wastewater_plant)
+@industrial-line: saturate(darken(#c6b3c3, 75%), 5%);  // Lch(75,11,330) (Also used for railway-line, wastewater_plant-line)
+@farmland: saturate(darken(#eef0d5, 75%), 5%);         // Lch(94,14,112)
+@farmland-line: saturate(darken(#c7c9ae, 75%), 5%);    // Lch(80,14,112)
+@farmyard: saturate(darken(#f5dcba, 75%), 5%);         // Lch(89,20,80)
+@farmyard-line: saturate(darken(#d1b48c, 75%), 5%);    // Lch(75,25,80)
 
 // --- Transport ----
 
-@transportation-area: saturate(darken(#e9e7e2, 75%), 10%);
-@apron: saturate(darken(#dadae0, 75%), 10%);
-@garages: saturate(darken(#dfddce, 75%), 10%);
-@parking: saturate(darken(#eeeeee, 75%), 10%);
-@parking-outline: saturate(darken(@parking, 75%), 10%);
+@transportation-area: saturate(darken(#e9e7e2, 75%), 5%);
+@apron: saturate(darken(#dadae0, 75%), 5%);
+@garages: saturate(darken(#dfddce, 75%), 5%);
+@parking: saturate(darken(#eeeeee, 75%), 5%);
+@parking-outline: saturate(darken(@parking, 75%), 5%);
 @railway: @industrial;
 @railway-line: @industrial-line;
-@rest_area: saturate(darken(#efc8c8, 75%), 10%); // also services
+@rest_area: saturate(darken(#efc8c8, 75%), 5%); // also services
 
 // --- Other ----
 
-@bare_ground: saturate(darken(#eee5dc, 75%), 10%);
-@campsite: saturate(darken(#def6c0, 75%), 10%); // also caravan_site, picnic_site
-@cemetery: saturate(darken(#aacbaf, 75%), 10%); // also grave_yard
-@construction: saturate(darken(#c7c7b4, 75%), 10%); // also brownfield
-@heath: saturate(darken(#d6d99f, 75%), 10%);
+@bare_ground: saturate(darken(#eee5dc, 75%), 5%);
+@campsite: saturate(darken(#def6c0, 75%), 5%); // also caravan_site, picnic_site
+@cemetery: saturate(darken(#aacbaf, 75%), 5%); // also grave_yard
+@construction: saturate(darken(#c7c7b4, 75%), 5%); // also brownfield
+@heath: saturate(darken(#d6d99f, 75%), 5%);
 @mud: rgba(203,177,154,0.3); // produces #e6dcd1 over @land
-@place_of_worship: saturate(darken(#d0d0d0, 75%), 10%); // also landuse_religious
+@place_of_worship: saturate(darken(#d0d0d0, 75%), 5%); // also landuse_religious
 @place_of_worship_outline: darken(@place_of_worship, 30%);
-@leisure: saturate(darken(@park, 75%), 10%);
+@leisure: saturate(darken(@park, 75%), 5%);
 @power: darken(@industrial, 5%);
 @power-line: darken(@industrial-line, 5%);
-@sand: saturate(darken(#f5e9c6, 75%), 10%);
-@societal_amenities: saturate(darken(#ffffe5, 75%), 10%);   // Lch(99,13,109)
-@tourism: saturate(darken(#660033, 75%), 10%);
-@quarry: saturate(darken(#c5c3c3, 75%), 10%);
-@military: saturate(darken(#f55, 75%), 10%);
-@beach: saturate(darken(#fff1ba, 75%), 10%);
+@sand: saturate(darken(#f5e9c6, 75%), 5%);
+@societal_amenities: saturate(darken(#ffffe5, 75%), 5%);   // Lch(99,13,109)
+@tourism: saturate(darken(#660033, 75%), 5%);
+@quarry: saturate(darken(#c5c3c3, 75%), 5%);
+@military: saturate(darken(#f55, 75%), 5%);
+@beach: saturate(darken(#fff1ba, 75%), 5%);
 @wastewater_plant: @industrial;
 @wastewater_plant-line: @industrial-line;
 @water_works: @industrial;
@@ -63,7 +63,7 @@
 
 // --- Sports ---
 
-@pitch: saturate(darken(#aae0cb, 75%), 10%);           // Lch(85,22,168) also track
+@pitch: saturate(darken(#aae0cb, 75%), 5%);           // Lch(85,22,168) also track
 @track: @pitch;
 @stadium: @leisure; // also sports_centre
 @golf_course: @campsite;
@@ -217,7 +217,7 @@
   }
 
   [feature = 'amenity_prison'][zoom >= 10][way_pixels > 75] {
-    polygon-fill: saturate(darken(#8e8e8e, 75%), 10%);
+    polygon-fill: saturate(darken(#8e8e8e, 75%), 5%);
     polygon-opacity: 0.14;
     polygon-pattern-file: url('patterns/grey_vertical_hatch.svg');
     polygon-pattern-alignment: global;
@@ -475,7 +475,7 @@
 
   [feature = 'landuse_landfill'] {
     [zoom >= 10] {
-      polygon-fill: saturate(darken(#b6b592, 75%), 10%);
+      polygon-fill: saturate(darken(#b6b592, 75%), 5%);
       [way_pixels >= 4]  { polygon-gamma: 0.75; }
       [way_pixels >= 64] { polygon-gamma: 0.3;  }
     }
@@ -602,7 +602,7 @@
   [feature = 'amenity_police'][zoom >= 8][way_pixels > 900],
   [feature = 'amenity_fire_station'][zoom >= 13],
   [feature = 'amenity_police'][zoom >= 13] {
-    polygon-fill: saturate(darken(#b6b592, 75%), 10%);
+    polygon-fill: saturate(darken(#b6b592, 75%), 5%);
     line-color: @military;
     line-opacity: 0.24;
     line-width: 1.0;
@@ -809,7 +809,7 @@
 #landuse-overlay {
   [landuse = 'military'][zoom >= 8][way_pixels > 900],
   [landuse = 'military'][zoom >= 13] {
-    polygon-fill: saturate(darken(#ff5555, 75%), 10%);
+    polygon-fill: saturate(darken(#ff5555, 75%), 5%);
     polygon-opacity: 0.08;
     polygon-pattern-file: url('patterns/military_red_hatch.svg');
     polygon-pattern-alignment: global;
@@ -824,7 +824,7 @@
   }
 
   [military = 'danger_area'][zoom >= 9] {
-    polygon-fill: saturate(darken(#ff5555, 75%), 10%);
+    polygon-fill: saturate(darken(#ff5555, 75%), 5%);
     polygon-opacity: 0.1;
     polygon-pattern-file: url('patterns/danger_red_hatch.svg');
     polygon-pattern-alignment: global;

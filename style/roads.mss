@@ -5,27 +5,27 @@
 @service-fill: @residential-fill;
 @living-street-fill: #666;
 @pedestrian-fill: #dddde8;
-@raceway-fill: saturate(darken(pink, 60%), 80%);
+@raceway-fill: saturate(darken(pink, 75%), 10%);
 @road-fill: #ddd;
-@footway-fill: saturate(darken(salmon, 60%), 80%);
+@footway-fill: saturate(darken(salmon, 75%), 10%);
 @footway-fill-noaccess: #bbbbbb;
 @steps-fill: @footway-fill;
 @steps-fill-noaccess: #bbbbbb;
-@cycleway-fill: saturate(darken(blue, 60%), 80%);
+@cycleway-fill: saturate(darken(blue, 75%), 10%);
 @cycleway-fill-noaccess: #9999ff;
-@bridleway-fill: saturate(darken(green, 60%), 80%);
-@bridleway-fill-noaccess: saturate(darken(#aaddaa, 60%), 80%);
-@track-fill: saturate(darken(#996600, 60%), 80%);
-@track-fill-noaccess: saturate(darken(#e2c5bb, 60%), 80%);
-@aeroway-fill: saturate(darken(#bbc, 60%), 80%);
+@bridleway-fill: saturate(darken(green, 75%), 10%);
+@bridleway-fill-noaccess: saturate(darken(#aaddaa, 75%), 10%);
+@track-fill: saturate(darken(#996600, 75%), 10%);
+@track-fill-noaccess: saturate(darken(#e2c5bb, 75%), 10%);
+@aeroway-fill: saturate(darken(#bbc, 75%), 10%);
 @runway-fill: @aeroway-fill;
 @taxiway-fill: @aeroway-fill;
 @helipad-fill: @aeroway-fill;
-@access-marking: saturate(darken(#eaeaea, 60%), 80%);
-@access-marking-living-street: saturate(darken(#cccccc, 60%), 80%);
+@access-marking: saturate(darken(#eaeaea, 75%), 10%);
+@access-marking-living-street: saturate(darken(#cccccc, 75%), 10%);
 
 @default-casing: white;
-@tertiary-casing: saturate(darken(#8f8f8f, 60%), 80%);
+@tertiary-casing: saturate(darken(#8f8f8f, 75%), 10%);
 @residential-casing: #555;
 @road-casing: @residential-casing;
 @service-casing: @residential-casing;
@@ -45,9 +45,9 @@
 @minor-construction: #aaa;
 @service-construction: #aaa;
 
-@destination-marking: saturate(darken(#c2e0ff, 60%), 80%);
-@private-marking: saturate(darken(#efa9a9, 60%), 80%);
-@private-marking-for-red: saturate(darken(#C26363, 60%), 80%);
+@destination-marking: saturate(darken(#c2e0ff, 75%), 10%);
+@private-marking: saturate(darken(#efa9a9, 75%), 10%);
+@private-marking-for-red: saturate(darken(#C26363, 75%), 10%);
 
 @tunnel-casing: grey;
 @bridge-casing: black;
