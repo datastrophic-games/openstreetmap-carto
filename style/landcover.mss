@@ -21,9 +21,9 @@
 @commercial-line: @landcoverline;
 @industrial: #383734;
 @industrial-line: @landcoverline;
-@farmland: #404238
+@farmland: #404238;
 @farmland-line: @landcoverline;
-@farmyard: #393c38         // Lch(89,20,80)
+@farmyard: #393c38;         // Lch(89,20,80)
 @farmyard-line: @landcoverline;
 
 // --- Transport ----
@@ -41,7 +41,7 @@
 
 @bare_ground: #42423f;
 @campsite: #3b3b3b;
-@cemetery: #3e3e39
+@cemetery: #3e3e39;
 @construction: #525048; // also brownfield
 @heath: saturate(darken(#d6d99f, 75%), 5%);
 @mud: rgba(203,177,154,0.3); // produces #e6dcd1 over @land
@@ -54,7 +54,7 @@
 @societal_amenities: @campsite;
 @tourism: @campsite;
 @quarry: saturate(darken(#c5c3c3, 75%), 5%);
-@military: #5d704f
+@military: #5d704f;
 @beach: @sand;
 @wastewater_plant: @industrial;
 @wastewater_plant-line: @industrial-line;
