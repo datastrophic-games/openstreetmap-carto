@@ -14,7 +14,7 @@
 @built-up-lowzoom: saturate(darken(#d0d0d0, 75%), 5%);
 @built-up-z12: saturate(darken(#dddddd, 75%), 5%);
 @residential: #4a4343;      // Lch(89,0,0)
-@residential-line: #1a1922
+@residential-line: #1a1922;
 @retail: #3a363e;           // Lch(89,16,30)
 @retail-line: #000000;
 @commercial: #313737;       // Lch(89,8.5,25)

@@ -1,5 +1,5 @@
 @admin-boundaries: #8d618b; // Lch(47,30,327)
-@admin-boundaries-narrow: #845283; // Lch(42,35,327)
+@admin-boundaries-narrow: #5b435a; // Lch(42,35,327)
 @admin-boundaries-wide: #a37da1; // Lch(57,25,327)
 
 /* For performance reasons, the admin border layers are split into three groups
@@ -305,6 +305,7 @@ Then all three layers are added to the rendering with comp-op: darken, so that t
   ::firstline { opacity: 0.5; }
   ::wideline { opacity: 0.5; }
   ::narrowline { opacity: 0.6; }
+  */
   /*
   The following code prevents admin boundaries from being rendered on top of
   each other. Comp-op works on the entire attachment, not on the individual
@@ -316,6 +317,7 @@ Then all three layers are added to the rendering with comp-op: darken, so that t
   The SQL has `ORDER BY admin_level`, so the boundary with the lowest
   admin_level is rendered on top, and therefore the only visible boundary.
   */
+  /*
   ::firstline,
   ::wideline,
   ::narrowline { comp-op: darken; }
